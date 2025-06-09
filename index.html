@@ -1,190 +1,250 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Croustishop - Restaurant</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Terra</title>
+  
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
 </head>
+
 <body>
-    <header>
 
-        <div class="title-box">
-            <h1>Croustishop</h1>
-            <p>Des petits plats tout en douceur</p>
-        </div>
+<header id="header">
+  <div class="container">
+    <div class="logo">Djakaridja Terra</div>
 
-        <div class="slider">
-            <div class="slides">
-                <div class="slide"><img src="images/1.jpg"></div>
-                <div class="slide"><img src="images/2.jpg"></div>
-                <div class="slide"><img src="images/3.jpg"></div>
-                <div class="slide"><img src="images/4.jpg"></div>
-            </div>
-        </div>
+    <button class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </button>
 
-    </header>
+    <nav class="nav">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-    <div class="section-menu">
-        <nav class="menu">
-            <ul>
-                <li class="nav-item pizza"><a href="#pizza">Pizza</a></li>
-                <li class="nav-item salade"><a href="#salade">Salade</a></li>
-                <li class="nav-item burger"><a href="#burger">Burger</a></li>
-                <li class="nav-item boisson"><a href="#boisson">Boissons</a></li>
-            </ul>
-        </nav>
+
+
+<section id="accueil" class="section-presentation">
+  <div class="container presentation-content">
+    <div class="photo">
+      <img src="assets/images/photo4.jpg" alt="Photo de Amine" />
     </div>
+    <div class="texte">
+      <h1>Je suis Terra Djakaridja</h1>
+      <h2>Développeur Front-End</h2>
+      <p>Développeur web passionné, formé à l’Université Tertiaire Technologique Loko. Curieux et motivé, j’aime transformer les idées en expériences interactives et accessibles à travers le web.
+Je maîtrise les technologies front-end, tout en ayant de bonnes bases en back-end.
+J’ai déjà réalisé plusieurs sites web et Je suis actuellement à la recherche de nouvelles opportunités pour continuer à apprendre, créer et collaborer sur des projets web stimulants.</p>
+      <a href="#projets" class="btn">Voir mes projets</a>
+    </div>
+  </div>
+</section>
 
 
-    <main id="main">
-        <section id="pizza" class="pizza">
-        
-        <div class="item">
-            <img src="images/pizza1.jpg" alt="">
-            <div class="item-info">
-                <h3>Caprapiquante</h3>
-                <hr>
-                <p>Chevre, Miel, Graines Toastés, Piment rouge</p>
-                <p class="prix">12£00</p>
-            </div>
-        </div>
+<section id="competences" class="section-competences">
+  <div class="container">
+    <h2 class="section-title">Mes Compétences</h2>
+    <div class="competence-grid">
+      
+      <div class="competence-card">
+        <img src="assets/icons/html5.svg" alt="HTML5" />
+        <h3>HTML5</h3>
+        <p>Langage de balisage utilisé pour structurer le contenu des pages web de manière sémantique et moderne.</p>
+      </div>
 
-        <div class="item">
-            <img src="images/pizza2.jpg" alt="">
-            <div class="item-info">
-                <h3>Strategia</h3>
-                <hr>
-                <p>Tomates, Mozerlla, basilique</p>
-                <p class="prix">9£00</p>
-            </div>
-        </div>
+      <div class="competence-card">
+        <img src="assets/icons/css.svg" alt="CSS3" />
+        <h3>CSS3</h3>
+        <p>Langage de style qui permet de mettre en forme et d'animer les éléments HTML pour un rendu visuel attractif.</p>
+      </div>
 
-        <div class="item">
-            <img src="images/pizza3.jpg" alt="">
-            <div class="item-info">
-                <h3>Naturale</h3>
-                <hr>
-                <p>Chevre, Courgettes, basilique, carottes, Huile vegetale</p>
-                <p class="prix">10£00</p>
-            </div>
-        </div>
+      <div class="competence-card">
+        <img src="assets/icons/javascript.svg" alt="JavaScript" />
+        <h3>JAVASCRIPT</h3>
+        <p>Langage de programmation qui permet de rendre les pages web interactives et dynamiques côté client.</p>
+      </div>
 
-    </section>
+      <div class="competence-card">
+        <img src="assets/icons/php.svg" alt="HTML5" />
+        <h3>PHP</h3>
+        <p>Langage de script côté serveur utilisé pour développer des sites web dynamiques et interagir avec des bases de données.</p>
+      </div>
 
-    <section id="salade" class="salade">
-        
-        <div class="item">
-            <img src="images/salade1.jpg" alt="">
-            <div class="item-info">
-                <h3>Salade Poulet Betterave</h3>
-                <hr>
-                <p>Poulet, Mache, Betterave, Avocat, Croutons</p>
-                <p class="prix">5£00</p>
-            </div>
-        </div>
+      <div class="competence-card">
+        <img src="assets/icons/java.svg" alt="CSS3" />
+        <h3>MYSQL</h3>
+        <p> Langage de programmation orienté objet, utilisé pour développer des applications robustes, multiplateformes et performantes.</p>
+      </div>
 
-        <div class="item">
-            <img src="images/salade2.jpg" alt="">
-            <div class="item-info">
-                <h3>Salade Grec Maison</h3>
-                <hr>
-                <p>salade, Tomates, olivesa, feta, Oignons basilique</p>
-                <p class="prix">4£00</p>
-            </div>
-        </div>
+      <div class="competence-card">
+        <img src="assets/icons/python.svg" alt="JavaScript" />
+        <h3>PYTHON</h3>
+        <p>Langage de programmation polyvalent et facile à lire, utilisé en développement web, data science, automatisation et intelligence artificielle.</p>
+      </div>
 
-        <div class="item">
-            <img src="images/salade3.jpg" alt="">
-            <div class="item-info">
-                <h3>Salade Tomates Mozarella</h3>
-                <hr>
-                <p>Tomates, Mozarella, Salade, maches, epinard</p>
-                <p class="prix">6£00</p>
-            </div>
-        </div>
+      <div class="competence-card">
+        <img src="assets/icons/bootstrap.svg" alt="HTML5" />
+        <h3>BOOTSTRAP</h3>
+        <p>Framework CSS open source qui facilite la création de sites web responsives et modernes grâce à ses composants préconçus.</p>
+      </div>
 
-    </section>
+      <div class="competence-card">
+        <img src="assets/icons/angular.svg" alt="CSS3" />
+        <h3>ANGULAR</h3>
+        <p>Framework JavaScript basé sur TypeScript, conçu pour développer des applications web dynamiques et structurées côté client.</p>
+      </div>
 
-    <section id="burger" class="burger">
-        
-        <div class="item">
-            <img src="images/burger1.jpg" alt="">
-            <div class="item-info">
-                <h3>Legendaire</h3>
-                <hr>
-                <p>1 steak + bacon + chedar</p>
-                <p class="prix">4£00</p>
-            </div>
-        </div>
+      <div class="competence-card">
+        <img src="assets/icons/react.svg" alt="JavaScript" />
+        <h3>REACT </h3>
+        <p>Bibliothèque JavaScript pour construire des interfaces utilisateur réactives et modulaires, centrée sur la création de composants.</p>
+      </div>
 
-        <div class="item">
-            <img src="images/burger2.jpg" alt="">
-            <div class="item-info">
-                <h3>Villageois</h3>
-                <hr>
-                <p>1 steak + chedar + salade + Oignons</p>
-                <p class="prix">5£00</p>
-            </div>
-        </div>
+      <div class="competence-card">
+        <img src="assets/icons/git.svg" alt="HTML5" />
+        <h3>GIT</h3>
+        <p>Système de contrôle de version distribué permettant de suivre les modifications du code et de collaborer efficacement en équipe.</p>
+      </div>
 
-        <div class="item">
-            <img src="images/burger3.jpg" alt="">
-            <div class="item-info">
-                <h3>Basique</h3>
-                <hr>
-                <p>2 steak + chedar</p>
-                <p class="prix">5£00</p>
-            </div>
-        </div>
+      <div class="competence-card">
+        <img src="assets/icons/github.svg" alt="CSS3" />
+        <h3>GITHUB</h3>
+        <p>Plateforme en ligne qui héberge des projets Git, facilitant la collaboration, le partage de code et la gestion des versions.</p>
+      </div>
 
-    </section>
+      <div class="competence-card">
+        <img src="assets/icons/wordpress.svg" alt="JavaScript" />
+        <h3>WORDPRESS</h3>
+        <p>Système de gestion de contenu (CMS) populaire pour créer et gérer facilement des sites web et blogs sans coder.</p>
+      </div>
 
-    <section id="boisson" class="boisson">
-        
-        <div class="item">
-            <img src="images/boisson1.jpg" alt="">
-            <div class="item-info">
-                <h3>Jus Multifruits</h3>
-                <hr>
-                <p>Banane, Orange, Fraise</p>
-                <p class="prix">3£00</p>
-            </div>
-        </div>
+      <div class="competence-card">
+        <img src="assets/icons/mysql.svg" alt="HTML5" />
+        <h3>MYSQL</h3>
+        <p>Système de gestion de bases de données relationnelles open source, utilisé pour stocker et organiser les données des applications web.</p>
+      </div>
 
-        <div class="item">
-            <img src="images/boisson2.jpg" alt="">
-            <div class="item-info">
-                <h3>Jus de pasteque</h3>
-                <hr>
-                <p>La pasteque du jardin</p>
-                <p class="prix">2£00</p>
-            </div>
-        </div>
+      <div class="competence-card">
+        <img src="assets/icons/figma.svg" alt="CSS3" />
+        <h3>FIGMA</h3>
+        <p>Outil de design d’interface en ligne, collaboratif, utilisé pour créer des maquettes UI/UX interactives et prototyper des applications web et mobiles.</p>
+      </div>
 
-        <div class="item">
-            <img src="images/boisson3.jpg" alt="">
-            <div class="item-info">
-                <h3>Café</h3>
-                <hr>
-                <p>Nexpresso, café, ..</p>
-                <p class="prix">5£00</p>
-            </div>
-        </div>
+      <div class="competence-card">
+        <img src="assets/icons/word.svg" alt="JavaScript" />
+        <h3>WORD</h3>
+        <p>Logiciel de traitement de texte de Microsoft, utilisé pour créer, éditer et mettre en forme des documents professionnels ou personnels.</p>
+      </div>
 
-    </section>
-    </main>
+      <div class="competence-card">
+        <img src="assets/icons/excel.svg" alt="HTML5" />
+        <h3>EXCEL</h3>
+        <p>Logiciel de tableur de Microsoft permettant de gérer, analyser et visualiser des données grâce à des formules, des tableaux et des graphiques.</p>
+      </div>
 
-    <footer>
+      <div class="competence-card">
+        <img src="assets/icons/powerpoint.svg" alt="CSS3" />
+        <h3>POWERPOINT</h3>
+        <p>Logiciel de présentation de Microsoft utilisé pour créer des diaporamas visuels et interactifs à des fins professionnelles, éducatives ou personnelles.</p>
+      </div>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.7519659241125!2d-3.9600909250166922!3d5.301348794676973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ec245d9fbff7%3A0x28406225f0ed98f0!2sBoulevard%20du%20Cameroun%2C%20Abidjan!5e0!3m2!1sfr!2sci!4v1747919464994!5m2!1sfr!2sci" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
 
-        <p>
-            &copy; 2025 - Croustishop by Terra | Tout droits reservés.
-        </p>
-        
-    </footer>
 
-    <script src="stickyscroll.js"></script>
+<section id="projets" class="section-projets">
+  <div class="container">
+    <h2 class="section-title">Mes Projets</h2>
+
+    <div class="projets-grid">
+      
+      <div class="projet-card">
+        <img src="assets/projets/croustishop.png" alt="Projet 1">
+        <h3>CroustiShop</h3>
+        <p>Site web vitrine pour un restaurant, présentant le menu, les offres, les coordonnées et une interface conviviale pour attirer les clients.</p>
+        <a href="https://github.com/Terra100-coder/Croustishop" target="_blank" class="btn">Voir le code</a>
+      </div>
+
+      <div class="projet-card">
+        <img src="assets/projets/calculator.png" alt="Projet 2">
+        <h3>Calculator</h3>
+        <p>Application web simple qui permet d’effectuer des opérations mathématiques de base avec une interface intuitive.</p>
+        <a href="https://github.com/Terra100-coder/calculator" target="_blank" class="btn">Voir le code</a>
+      </div>
+
+      <div class="projet-card">
+        <img src="assets/projets/bubble.png" alt="Projet 3">
+        <h3>Bubble-Game</h3>
+        <p>Jeu interactif en JavaScript où l'utilisateur doit cliquer sur des bulles qui apparaissent aléatoirement pour marquer des points.</p>
+        <a href="https://github.com/Terra100-coder/Bubble-Game" target="_blank" class="btn">Voir le code</a>
+      </div>
+
+      <div class="projet-card">
+        <img src="assets/projets/password.png" alt="Projet 4">
+        <h3>Password-Generator</h3>
+        <p>Application web permettant de générer automatiquement des mots de passe sécurisés selon des critères personnalisés.</p>
+        <a href="https://github.com/Terra100-coder/Password-Generator" target="_blank" class="btn">Voir le code</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="cv" class="section-cv">
+  <h2 class="section-title">Mon CV</h2>
+  
+  <div class="cv-preview">
+    <iframe src="assets/cv/CV_Djakaridja_Terra.pdf" frameborder="0"></iframe>
+  </div>
+
+  <div class="cv-buttons">
+    <a href="assets/cv/CV_Djakaridja_Terra.pdf" download class="btn-cv">📎 Télécharger le CV</a>
+    <a href="assets/cv/CV_Djakaridja_Terra.pdf" target="_blank" class="btn-cv outline">🔎 Voir en plein écran</a>
+  </div>
+</section>
+
+
+
+<section id="contact" class="section-contact">
+  <h2 class="section-title">Contact</h2>
+
+  <form class="contact-form">
+    <input type="text" name="name" placeholder="Votre nom" required>
+    <input type="email" name="email" placeholder="Votre email" required>
+    <textarea name="message" placeholder="Votre message" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+
+  <div class="social-links">
+    <a href="https://github.com/Terra100-coder" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="www.linkedin.com/in/djakaridja-terra-438b0b269" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://wa.me/+2250595094280" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <p>&copy; 2025 Djakaridja Terra — Tous droits réservés</p>
+  <p>Merci de votre visite 👋</p>
+</footer>
+
+
+<script src="script/script.js"></script>
+
 </body>
+
 </html>
